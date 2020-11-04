@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/packagist/v/spinzar/money?label=release)](https://github.com/spinzar/money/releases)
 ![Downloads](https://img.shields.io/packagist/dt/spinzar/money)
 ![Tests](https://img.shields.io/github/workflow/status/spinzar/money/Tests?label=tests)
-[![StyleCI](https://github.styleci.io/repos//shield?branch=master)](https://github.styleci.io/repos/?branch=master)
+[![StyleCI](https://github.styleci.io/repos/310012922/shield?branch=main)](https://github.styleci.io/repos/310012922?branch=main)
 [![Quality](https://img.shields.io/scrutinizer/quality/g/spinzar/money?label=quality)](https://scrutinizer-ci.com/g/spinzar/money)
 [![License](https://img.shields.io/github/license/spinzar/money)](LICENSE.md)
 
