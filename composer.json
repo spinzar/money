@@ -1,0 +1,44 @@
+{
+   "name":"spinzar/money",
+   "description":"Currency formatting and conversion package for Laravel.",
+   "keywords":[
+      "laravel",
+      "money",
+      "currency",
+      "format",
+      "convert"
+   ],
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"Nassim Nasibullah",
+         "email":"info@spinzar.co",
+         "homepage":"https://spinzar.co",
+         "role":"Developer"
+      }
+   ],
+   "require":{
+      "php":"^5.6.0|^7.0|^7.1|^7.2|^7.3|^7.4",
+      "illuminate/support":"^5.4|^5.5|^6.0^7.0|^8.0",
+      "illuminate/view":"5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0"
+   },
+   "require-dev":{
+      "mockery/mockery":"^1.0|^1.1|^1.2|^1.3|^1.4",
+      "phpunit/phpunit":"~5.7|~6.5|~7.5|~8.4|~9.0"
+   },
+   "autoload":{
+      "psr-4":{
+         "Spinzar\\Money\\":"./src"
+      },
+      "files":[
+         "src/helpers.php"
+      ]
+   },
+   "extra":{
+      "laravel":{
+         "providers":[
+            "Spinzar\\Money\\Provider"
+         ]
+      }
+   }
+}
